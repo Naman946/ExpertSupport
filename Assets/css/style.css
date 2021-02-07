@@ -13,6 +13,50 @@
     background: #040b14;
     overflow-y: auto;
   }*/
+  #body{
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+  a{
+    color: #149ddd;
+  }
+  a:hover
+  {
+    color: #149ddd;
+    text-decoration: underline;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  /*.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: #149ddd;
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+  }
+  
+  .back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+  }
+  
+  .back-to-top:hover {
+    color: #fff;
+    background: #2eafec;
+    transition: background 0.2s ease-in-out;
+  }*/
+  /*
+      Header file
+  */
   #header{
       position:fixed;
       top: 0;
@@ -32,6 +76,7 @@
     display: block;
     width: 120px;
     border: 8px solid #2c2f3f;
+    
 
   }
   #header .flag h1 {
@@ -67,6 +112,59 @@
     background: #149ddd;
     color: #fff;
     text-decoration: none;
+  }
+  #main {
+    margin-left: 300px;
+  }
+  
+  @media (max-width: 1199px) {
+    #header {
+      left: -300px;
+    }
+    #main {
+      margin-left: 0;
+    }
+  }
+  /*
+     nav-bar or nav-menu
+  */
+  .nav-menu
+  {
+    padding-top: 30px;
+  }
+  .nav-menu *
+  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .nav-menu > ul> li
+  {
+  position: relative;
+  white-space: nowrap;
+  }
+  .nav-menu a{
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+  }
+  .nav-menu a i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #6f7180;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+    color: #149ddd;
   }
   
   
