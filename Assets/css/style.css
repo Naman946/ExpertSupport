@@ -106,12 +106,14 @@
     width: 36px;
     height: 36px;
     transition: 0.3s;
+    align-items: center;
   }
   
   #header .flag .social-links a:hover {
     background: #149ddd;
     color: #fff;
     text-decoration: none;
+    align-items: center;
   }
   #main {
     margin-left: 300px;
